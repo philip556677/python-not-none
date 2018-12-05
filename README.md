@@ -9,7 +9,7 @@ from not_none import not_none
 def no_none(a,b):
     return (a,b)
     
-@not_none(nullable_parameters["b"])
+@not_none(nullable_parameters=["b"])
 def allow_b_as_none(a,b):
     return (a,b)
 
