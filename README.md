@@ -13,7 +13,6 @@ def no_none(a,b):
 def allow_b_as_none(a,b):
     return (a,b)
 
-
 #passes
 no_none(1,1)
 
