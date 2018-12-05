@@ -29,7 +29,7 @@ allow_b_as_none(None,1)
   
 ``````
 
-##Notes:
+## Notes:
 Using this decorator requires "()"
 
 e.g.
